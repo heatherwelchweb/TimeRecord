@@ -1,4 +1,4 @@
-let appendZero = (num) => {
+export const appendZero = (num) => {
   return ("0" + num).slice(-2);
 }
 export const formatElapsedTime = (miliSeconds) => {
